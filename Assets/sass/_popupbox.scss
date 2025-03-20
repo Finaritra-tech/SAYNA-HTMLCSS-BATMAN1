@@ -1,0 +1,21 @@
+.popupbox {
+  display: none;
+  background: linear-gradient(
+    to right,
+    rgba(25, 88, 125, 0.1),
+    rgba(25, 88, 125, 0.9)
+  );
+  padding: 3em;
+  width: 50%;
+  margin: 4em auto;
+}
+
+.inside {
+  background: darkslategray;
+  border-radius: 20px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding: 4em;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
+}

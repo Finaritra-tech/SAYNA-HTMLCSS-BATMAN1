@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "rajdhanimedium";
+  src: url("../font/rajdhani-medium-webfont.woff2") format("woff2"),
+    url("../font/rajdhani-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "space_groteskmedium";
+  src: url("../font/spacegrotesk-medium-webfont.woff2") format("woff2"),
+    url("../font/spacegrotesk-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "rajdhanimedium";
+  font-weight: bold;
+}
+h3,
+h2,
+h4 {
+  font-family: "space_groteskmedium";
+}
+a {
+  font-family: "rajdhanimedium";
+}
+p {
+  font-family: "space_groteskmedium";
+  font-size: 18px;
+}
+
+main {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top: none;
+  border-bottom: none;
+  margin: 0 5em 0em 5em;
+}

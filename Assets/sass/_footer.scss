@@ -1,0 +1,48 @@
+.section8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 5em 5em 5em;
+}
+.section8 p2 {
+  line-height: 0.2;
+}
+.div17 {
+  display: flex;
+  margin-bottom: 1.5em;
+  gap: 1em;
+  a {
+    align-content: center;
+  }
+}
+
+.réseau1 {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.3em;
+  align-self: center;
+}
+.x {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.p1 {
+  font-size: 12px;
+}
+
+.div6 {
+  display: flex;
+  margin: 3em 0em 0em 0em;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  h3 {
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+  }
+  img {
+    margin: 0em 0em 1em 0em;
+  }
+}

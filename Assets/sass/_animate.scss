@@ -1,0 +1,14 @@
+/* Fade-in */
+p {
+  transform: translate(-400px, -50px); /* Départ en haut à gauche */
+  animation: slideInDiagonal 1s ease-out forwards;
+}
+
+@keyframes slideInDiagonal {
+  from {
+    transform: translate(-400px, -50px); /* Position initiale */
+  }
+  to {
+    transform: translate(0, 0); /* Position finale */
+  }
+}
