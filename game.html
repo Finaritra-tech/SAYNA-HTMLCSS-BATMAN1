@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Assets/css/Style.css" />
     <link rel="stylesheet" href="Assets/sass/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <title>Batman | T4SU</title>
   </head>
   <body class="game">
@@ -26,36 +32,69 @@
         <div class="div1_game">
           <h2>Let's play a <br />little game...</h2>
         </div>
-        <div class="div2">
-          <a href="#section2">VOIR LE HEROS</a
-          ><a href="#section3">LES ADVERSAIRES</a>
-        </div>
-
-        <div class="div3">
-          <a href="#header">
-            <img src="Assets/Logos/logo_bat_flèche.png" alt="" class="hover"
-          /></a>
-          <a href=""
-            ><img
-              src="Assets/Logos/icon_facebook.png"
-              alt=""
-              class="réseau hover"
-          /></a>
-          <a href=""
-            ><img src="Assets/Logos/icon_ig.png" alt="" class="réseau hover"
-          /></a>
-          <a href=""
-            ><img src="Assets/Logos/icon_tw.png" alt="" class="réseau hover"
-          /></a>
-          <a href="#footer"
-            ><img src="Assets/Logos/logo_bat_flèche_2.png" alt="" class="hover"
-          /></a>
-        </div>
-
         <div class="flèche">
           <img src="Assets/Logos/flèche_down_header.png" alt="" />
         </div>
       </section>
+
+      <!-- Section démarrer -->
+      <section class="section2_game" id="section2_game">
+        <div class="div2_game">
+          <h2>connaissez-vous bien le chevalier noir?</h2>
+          <img src="Assets\Illustrations-game\Batgame_2.png" alt="batman" />
+          <button class="button_game" id="btn_start">Démarrer le quizz</button>
+        </div>
+      </section>
+
+      <!-- section quizz -->
+      <section class="section3_game" id="section3_game">
+        <h2 id="ordre">1/10</h2>
+        <span class="quel" id="quel">Lorem, ipsum.</span>
+        <img src="Assets/Illustrations-game/Batgame_3.png" alt="" />
+        <div>
+          <input type="checkbox" />
+          <span id="span1"> Bruce Wayne</span>
+        </div>
+
+        <div>
+          <input type="checkbox" />
+          <span id="span2"> Tony Stark</span>
+        </div>
+
+        <div>
+          <input type="checkbox" />
+          <span id="span3">Clark Kent</span>
+        </div>
+        <div>
+          <input type="checkbox" />
+          <span id="span4">Peter Parker</span>
+        </div>
+        <button class="button_game question" id="suivante">
+          Question suivante
+        </button>
+      </section>
+
+      <div class="div3">
+        <a href="#header">
+          <img src="Assets/Logos/logo_bat_flèche.png" alt="" class="hover"
+        /></a>
+        <a href=""
+          ><img
+            src="Assets/Logos/icon_facebook.png"
+            alt=""
+            class="réseau hover"
+        /></a>
+        <a href=""
+          ><img src="Assets/Logos/icon_ig.png" alt="" class="réseau hover"
+        /></a>
+        <a href=""
+          ><img src="Assets/Logos/icon_tw.png" alt="" class="réseau hover"
+        /></a>
+        <a href="#footer"
+          ><img src="Assets/Logos/logo_bat_flèche_2.png" alt="" class="hover"
+        /></a>
+      </div>
+
       <section class="section8" id="footer">
         <img
           src="Assets/Logos/icon_guillemets_1.png"
@@ -97,5 +136,6 @@
         </div>
       </section>
     </main>
+    <script src="Assets/js/game.js"></script>
   </body>
 </html>

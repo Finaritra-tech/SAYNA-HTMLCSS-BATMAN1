@@ -1,3 +1,8 @@
+@mixin flex($direction: column) {
+  display: flex;
+  flex-direction: $direction;
+}
+
 .game {
   background-image: url("../Illustrations-game/Batgame_1.png");
   background-repeat: no-repeat;
@@ -5,9 +10,95 @@
   background-color: black;
   line-height: 1.5;
 }
+@mixin coloris {
+  background: rgb(195, 190, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(195, 190, 199, 1) 0%,
+    rgba(215, 189, 221, 1) 50%,
+    rgba(241, 177, 87, 1) 100%
+  );
+  border: none;
+  color: #fff;
+}
 
+@mixin coloris2 {
+  background: rgb(195, 190, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 177, 87, 1) 0%,
+    rgba(215, 189, 221, 1) 50%,
+    rgba(195, 190, 199, 1) 100%
+  );
+  border: none;
+  color: #fff;
+}
 .section1_game {
-  margin: 0 5em 0em 7em;
+  margin: 0 5em 10em 7em;
   padding: 1em 5em 8em 0em;
   text-transform: uppercase;
+  height: 70%;
+}
+
+.div2_game {
+  @include flex;
+  text-transform: uppercase;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.button_game {
+  @include coloris;
+  width: 30%;
+  height: auto;
+  font-family: "rajdhanimedium";
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em;
+  &:hover {
+    @include coloris2;
+  }
+}
+.section3_game {
+  @include flex;
+  position: relative;
+  gap: 0.1em;
+  margin-bottom: 6em;
+  display: flex;
+  img {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+  }
+  .quel {
+    margin: 3em 0em 1em 0em;
+    align-self: center;
+    font-family: "rajdhanimedium";
+    font-size: 2em;
+  }
+  h2 {
+    margin-top: 6em;
+    font-family: "rajdhanimedium";
+    font-size: 2em;
+    align-self: center;
+  }
+  div {
+    margin-top: 0.3em;
+    align-self: center;
+    display: flex;
+    background-color: #c4c4c4;
+    width: 40%;
+    padding: 0.5em;
+    input {
+      margin-left: -16em;
+      padding-left: -6em;
+    }
+    span {
+      margin-left: -13em;
+    }
+  }
+}
+.question {
+  align-self: center;
+  margin-top: 2em;
 }

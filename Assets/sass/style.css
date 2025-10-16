@@ -587,9 +587,84 @@ body {
 }
 
 .section1_game {
-  margin: 0 5em 0em 7em;
+  margin: 0 5em 10em 7em;
   padding: 1em 5em 8em 0em;
   text-transform: uppercase;
+  height: 70%;
+}
+
+.div2_game {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_game {
+  background: rgb(195, 190, 199);
+  background: linear-gradient(90deg, rgb(195, 190, 199) 0%, rgb(215, 189, 221) 50%, rgb(241, 177, 87) 100%);
+  border: none;
+  color: #fff;
+  width: 30%;
+  height: auto;
+  font-family: "rajdhanimedium";
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+.button_game:hover {
+  background: rgb(195, 190, 199);
+  background: linear-gradient(90deg, rgb(241, 177, 87) 0%, rgb(215, 189, 221) 50%, rgb(195, 190, 199) 100%);
+  border: none;
+  color: #fff;
+}
+
+.section3_game {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.1em;
+  margin-bottom: 6em;
+  display: flex;
+}
+.section3_game img {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+.section3_game .quel {
+  margin: 3em 0em 1em 0em;
+  align-self: center;
+  font-family: "rajdhanimedium";
+  font-size: 2em;
+}
+.section3_game h2 {
+  margin-top: 6em;
+  font-family: "rajdhanimedium";
+  font-size: 2em;
+  align-self: center;
+}
+.section3_game div {
+  margin-top: 0.3em;
+  align-self: center;
+  display: flex;
+  background-color: #c4c4c4;
+  width: 40%;
+  padding: 0.5em;
+}
+.section3_game div input {
+  margin-left: -16em;
+  padding-left: -6em;
+}
+.section3_game div span {
+  margin-left: -13em;
+}
+
+.question {
+  align-self: center;
+  margin-top: 2em;
 }
 
 .popupbox {
@@ -598,6 +673,9 @@ body {
   padding: 3em;
   width: 50%;
   margin: 4em auto;
+  z-index: 1000;
+  position: absolute;
+  left: 20%;
 }
 
 .inside {

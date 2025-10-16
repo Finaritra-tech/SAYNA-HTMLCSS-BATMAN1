@@ -1,0 +1,92 @@
+{
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Batman",
+      "question": "Quel est le vrai nom de Batman ?",
+      "answer": "Bruce Wayne",
+      "answers": ["Clark Kent", "Peter Parker", "Tony Stark"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Batman",
+      "question": "Quelle ville Batman protège-t-il ?",
+      "answer": "Gotham City",
+      "answers": ["Metropolis", "Star City", "Central City"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Batman",
+      "question": "Qui est le fidèle majordome de Batman ?",
+      "answer": "Alfred Pennyworth",
+      "answers": ["Jarvis", "James Gordon", "Lucius Fox"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Batman",
+      "question": "Quel super-vilain a brisé le dos de Batman dans les comics ?",
+      "answer": "Bane",
+      "answers": ["Joker", "Ra's al Ghul", "Two-Face"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Batman",
+      "question": "Comment s'appelle l'asile où sont enfermés les criminels de Gotham ?",
+      "answer": "Arkham Asylum",
+      "answers": ["Blackgate Prison", "Belle Reve", "Rikers Island"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Batman",
+      "question": "Qui est le créateur original de Batman ?",
+      "answer": "Bob Kane",
+      "answers": ["Stan Lee", "Jack Kirby", "Steve Ditko"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Batman",
+      "question": "Quel est le nom du premier Robin, l'acolyte de Batman ?",
+      "answer": "Dick Grayson",
+      "answers": ["Jason Todd", "Tim Drake", "Damian Wayne"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Batman",
+      "question": "Quel est le nom de l'organisation criminelle dirigée par Ra's al Ghul ?",
+      "answer": "La Ligue des Ombres",
+      "answers": [
+        "L'Ordre de Saint-Dumas",
+        "Le Gang du Pingouin",
+        "La Cour des Hiboux"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Batman",
+      "question": "Quel est le surnom du Joker ?",
+      "answer": "Le Clown Prince du Crime",
+      "answers": [
+        "Le Seigneur du Chaos",
+        "Le Maître de la Peur",
+        "Le Fantôme Rouge"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Batman",
+      "question": "Quelle entreprise appartient à Bruce Wayne ?",
+      "answer": "Wayne Enterprises",
+      "answers": ["LexCorp", "Oscorp", "Stark Industries"]
+    }
+  ]
+}
